@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+  <WANIPConnection xmlns:DareConfig="http://www.dare-tech.com">
+  	<MultiInstance name="WANIPConnection" Instance="0"  level="1">
+		<WANConnectionDeviceName type="string" level="1" attr="1" value="" attrEnl="0"/>
+    	<WANConnectionServiceName type="string" level="1" attr="1" value="" attrEnl="0"/>
+  		<X_CT-COM_LanInterface type="string" level="1" attr="1" value="" attrEnl="0"/>
+  		<X_CT-COM_ServiceList type="string" level="1" attr="1" value="" attrEnl="0"/>
+  		<X_CT-COM_LanInterface-DHCPEnable type="boolean" level="1" attr="1" value="1" attrEnl="0"/>
+  		<X_CT-COM_MulticastVlan type="signedInt" level="1" attr="1" value="" attrEnl="0"/>
+		<IPv4Enable type="boolean" level="1" attr="1" value="1" attrEnl="0"/>
+		<IPv6Enable type="boolean" level="1" attr="1" value="0" attrEnl="0"/>
+		<DhcpPDEnable type="boolean" level="1" attr="1" value="0" attrEnl="0"/>
+		<SlaacEnable type="boolean" level="1" attr="1" value="0" attrEnl="0"/>
+		<fcNatEnable type="boolean" level="1" attr="1" value="0" attrEnl="0"/>
+    	<Enable type="boolean" level="1" attr="1" value="" attrEnl="0"/>
+    	<ConnectionStatus type="string" level="1" attr="1" value="Unconfigured" attrEnl="0"/>
+    	<PossibleConnectionTypes type="string" level="1" attr="1" value="" attrEnl="0"/>
+    	<ConnectionType type="string" level="1" attr="1" value="Unconfigured" attrEnl="0"/>
+    	<Name type="string" level="1" attr="1" value="" attrEnl="0"/>
+    	<Uptime type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    	<LastConnectionError type="string" level="1" attr="1" value="" attrEnl="0"/>
+    	<AutoDisconnectTime type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    	<IdleDisconnectTime type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    	<WarnDisconnectDelay type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    	<RSIPAvailable type="boolean" level="1" attr="1" value="" attrEnl="0"/>
+    	<NATEnabled type="boolean" level="1" attr="1" value="1" attrEnl="0"/>
+    	<AddressingType type="string" level="1" attr="1" value="" attrEnl="0"/>
+    	<ExternalIPAddress type="string" level="1" attr="1" value="" attrEnl="0"/>
+    	<SubnetMask type="string" level="1" attr="1" value="" attrEnl="0"/>
+    	<DefaultGateway type="string" level="1" attr="1" value="" attrEnl="0"/>
+    	<DNSEnabled type="boolean" level="1" attr="1" value="" attrEnl="0"/>
+    	<DNSOverrideAllowed type="boolean" level="1" attr="1" value="" attrEnl="0"/>
+    	<DNSServers type="string" level="1" attr="1" value="" attrEnl="0"/>
+    	<MaxMTUSize type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    	<MACAddress type="string" level="1" attr="1" value="" attrEnl="0"/>
+    	<MACAddressOverride type="boolean" level="1" attr="1" value="" attrEnl="0"/>
+    	<ConnectionTrigger type="string" level="1" attr="1" value="" attrEnl="0"/>
+    	<RouteProtocolRx type="string" level="1" attr="1" value="" attrEnl="0"/>
+    	<ShapingRate type="int" level="1" attr="1" value="" attrEnl="0"/>
+    	<ShapingBurstSize type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    	<PortMappingNumberOfEntries type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    	<PortMapping type="MultiInstance" level="1">
+    	</PortMapping>
+    	<Stats type="SingleInstance" level="1">
+    		<EthernetBytesSent type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    		<EthernetBytesReceived type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    		<EthernetPacketsSent type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    		<EthernetPacketsReceived type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    	</Stats>
+    	<X_CT-COM_DDNSConfiguration type="MultiInstance" level="1">
+    	</X_CT-COM_DDNSConfiguration>
+    	<X_CT-COM_PooledNatPortMapping type="MultiInstance" level="1">
+    	</X_CT-COM_PooledNatPortMapping>
+    </MultiInstance>
+  </WANIPConnection>

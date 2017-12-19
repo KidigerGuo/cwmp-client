@@ -1,0 +1,606 @@
+<?xml version="1.0"?>
+<InternetGatewayDevice xmlns:CwmpConfig="http://www.dare-tech.com" level="1">
+	<DeviceSummary type="string" level="1" attr="0" value="Cwmp" attrEnl="0" config="" app="" parm="" />
+	<LANDeviceNumberOfEntries type="unsignedInt" level="1" attr="0" value="0" attrEnl="0" config="" app="" parm="" />
+	<WANDeviceNumberOfEntries type="unsignedInt" level="1" attr="0" value="0" attrEnl="0" config="" app="" parm="" />
+  	<DeviceInfo type="SingleInstance" level="1">
+		<ACSName type="string" level="1" attr="0" value="Gsoap ACS Server" attrEnl="0" config="" app="" parm="" />
+        <Manufacturer type="string" level="1" attr="0" value="Gsoap" attrEnl="0" config="" app="" parm="" />
+		<ManufacturerOUI type="string" level="1" attr="0" value="001E40" attrEnl="0" config="" app="" parm="" />
+		<ModelName type="string" level="1" attr="0" value="Cwmp-Client" attrEnl="0" config="" app="" parm="" />
+		<Description type="string" level="1" attr="0" value="Gsoap Cwmp-Client" attrEnl="0" config="" app="" parm="" />
+		<ProductClass type="string" level="1" attr="0" value="TR69" attrEnl="0" config="" app="" parm="" />
+		<SerialNumber type="string" level="1" attr="0" value="5D102" attrEnl="0" config="" app="" parm="" />
+		<HardwareVersion type="string" level="1" attr="0" value="V1.0" attrEnl="0" config="" app="" parm="" />
+		<SoftwareVersion type="string" level="1" attr="0" value="V2013.10" attrEnl="0" config="" app="" parm="" />
+		<ModemFirmwareVersion type="string" level="1" attr="0" value="V85.11.01.02" attrEnl="0" config="" app="" parm="" />
+		<DeviceFirmwareVersion type="string" level="1" attr="0" value="547C16_540001" attrEnl="0" config="" app="" parm="" />
+		<FirmwareVersionDate type="string" level="1" attr="0" value="2013.10.12" attrEnl="0" config="" app="" parm="" />
+		<SpecVersion type="string" level="1" attr="0" value="1" attrEnl="0" config="" app="" parm="" />
+		<ProvisioningCode type="string" level="1" attr="0" value="12345" attrEnl="0" config="" app="" parm="" />
+        <Copyright type="string" level="1" attr="0" value="2013-2014 GPL" attrEnl="0" config="" app="" parm="" />
+		<Author type="string" level="1" attr="0" value="Kidiger.Guo" attrEnl="0" config="" app="" parm="" />
+		<Contact type="string" level="1" attr="0" value="kidiger@126.com" attrEnl="0" config="" app="" parm="" />
+	</DeviceInfo>
+  	<ManagementServer type="SingleInstance" level="1">
+        <URL type="string" level="1" attr="0" value="http://127.0.0.1:30005" attrEnl="0" config="" app="" parm="" />
+        <Username type="string" level="1" attr="0" value="root" attrEnl="0" config="" app="" parm="" />
+        <Password type="string" level="1" attr="0" value="admin" attrEnl="0" config="" app="" parm="" />
+        <PeriodicInformEnable type="boolean" level="1" attr="0" value="1" attrEnl="0" config="" app="" parm="" />
+        <PeriodicInformInterval type="unsignedInt" level="1" attr="0" value="43200" attrEnl="0" config="" app="" parm="" />
+        <PeriodicInformTime type="dateTime" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+        <RandomPeriodicInformEnable type="boolean" level="1" attr="0" value="0" attrEnl="0" config="" app="" parm="" />
+        <ParameterKey type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+		<ConnectionRequestPort type="unsginedInt" level="1" attr="0" value="30000" attrEnl="0" config="" app="" parm="" />
+        <ConnectionRequestURL type="string" level="1" attr="0" value="http://127.0.0.1:30000" attrEnl="0" config="" app="" parm="" />
+        <ConnectionRequestUsername type="string" level="1" attr="0" value="root" attrEnl="0" config="" app="" parm="" />
+        <ConnectionRequestPassword type="string" level="1" attr="0" value="admin" attrEnl="0" config="" app="" parm="" />
+        <UpgradesManaged type="boolean" level="1" attr="0" value="0" attrEnl="0" config="" app="" parm="" />
+        <KickURL type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+        <DownloadProgressURL type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+        <UDPConnectionRequestAddress type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+        <UDPConnectionRequestAddressNotificationLimit type="unsignedInt" level="1" attr="0" value="0" attrEnl="0" config="" app="" parm="" />
+        <STUNEnable type="boolean" level="1" attr="0" value="0" attrEnl="0" config="" app="" parm="" />
+        <STUNServerAddress type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+        <STUNServerPort type="unsignedInt" level="1" attr="0" value="0" attrEnl="0" config="" app="" parm="" />
+        <STUNUsername type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+        <STUNPassword type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+        <STUNMaximumKeepAlivePeriod type="int" level="1" attr="0" value="0" attrEnl="0" config="" app="" parm="" />
+        <STUNMinimumKeepAlivePeriod type="unsignedInt" level="1" attr="0" value="0" attrEnl="0" config="" app="" parm="" />
+        <NATDetected type="boolean" level="1" attr="0" value="0" attrEnl="0" config="" app="" parm="" />
+        <ManageableDeviceNumberOfEntries type="unsignedInt" level="1" attr="0" value="1" attrEnl="0" config="" app="" parm="" />
+        <ManageableDeviceNotificationLimit type="unsignedInt" level="1" attr="0" value="0" attrEnl="0" config="" app="" parm="" />
+        <ACSContacted type="unsignedchar" level="1" attr="0" value="0" attrEnl="0" config="" app="" parm="" />
+        <SSLEnable type="unsignedchar" level="1" attr="0" value="0" attrEnl="0" config="" app="" parm="" />
+        <InitDatamodel type="unsignedchar" level="1" attr="0" value="1" attrEnl="0" config="" app="" parm="" />
+		<ItmsRemoteRebootCommandKey type="unsignedchar" level="1" attr="0" value="0" attrEnl="0" config="" app="" parm="" />
+        <ItmsRemoteReboot type="unsignedchar" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+        <AuthType type="unsignedchar" level="1" attr="0" value="1" attrEnl="0" config="" app="" parm="" />
+        <InitTreeValue type="unsignedchar" level="1" attr="0" value="1" attrEnl="0" config="" app="" parm="" />
+		<Realm type="string" level="1" attr="0" value="lantiq" attrEnl="0" config="" app="" parm="" />
+		<CACERT_PEM type="string" level="1" attr="0" value="./Config/ssl/cacert.pem" attrEnl="0" config="" app="" parm="" />
+		<SERVER_PEM type="string" level="1" attr="0" value="./Config/ssl/server.pem" attrEnl="0" config="" app="" parm="" />
+		<SERVER_PEM_Password type="string" level="1" attr="0" value="kidiger" attrEnl="0" config="" app="" parm="" />
+		<DH_PEM type="string" level="1" attr="0" value="./Config/ssl/dh512.pem" attrEnl="0" config="" app="" parm="" />
+		<CLIENT_PEM type="string" level="1" attr="0" value="./Config/ssl/client.pem" attrEnl="0" config="" app="" parm="" />
+		<CLIENT_PEM_Password type="string" level="1" attr="0" value="kidiger" attrEnl="0" config="" app="" parm="" />
+		<ManageableDevice type="MultiInstance" level="1">
+        </ManageableDevice>
+	</ManagementServer>
+	<WebServerInfo type="SingleInstance" level="1">
+		<Name type="string" level="1" attr="0" value="Gsoap Web Server" attrEnl="0" config="" app="" parm="" />
+		<Description type="string" level="1" attr="0" value="This web server develop base on gsoap 2.8 , it support basic auth , MD5 auth , SSL , IPv6." attrEnl="0" config="" app="" parm="" />
+		<SoftwareVersion type="string" level="1" attr="0" value="V2013-1012-1646" attrEnl="0" config="" app="" parm="" />
+		<Copyright type="string" level="1" attr="0" value="2013-2014 GPL" attrEnl="0" config="" app="" parm="" />
+		<Author type="string" level="1" attr="0" value="Kidiger.Guo" attrEnl="0" config="" app="" parm="" />
+		<Contact type="string" level="1" attr="0" value="kidiger@126.com" attrEnl="0" config="" app="" parm="" />
+		<PasswordRequired type="boolean" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+		<PasswordUserSelectable type="boolean" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+		<ISPName type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+		<ISPHelpDesk type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+		<ISPHomePage type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+		<ISPHelpPage type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+		<ISPLogo type="base64" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+		<ISPLogoSize type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+		<ISPMailServer type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+		<ISPNewsServer type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+		<TextColor type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+		<BackgroundColor type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+		<ButtonColor type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+		<ButtonTextColor type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+		<ExampleLogin type="string" level="1" attr="0" value="root" attrEnl="0" config="" app="" parm="" />
+		<ExamplePassword type="string" level="1" attr="0" value="admin" attrEnl="0" config="" app="" parm="" />
+		<ServerPort type="unsignedInt" level="1" attr="0" value="8082" attrEnl="0" config="" app="" parm="" />
+		<ServerSSLPort type="unsignedInt" level="1" attr="0" value="8083" attrEnl="0" config="" app="" parm="" />
+		<SSLEnable type="unsignedchar" level="1" attr="0" value="1" attrEnl="0" config="" app="" parm="" />
+		<CACERT_PEM type="string" level="1" attr="0" value="./Config/ssl/cacert.pem" attrEnl="0" config="" app="" parm="" />
+		<SERVER_PEM type="string" level="1" attr="0" value="./Config/ssl/server.pem" attrEnl="0" config="" app="" parm="" />
+		<SERVER_PEM_Password type="string" level="1" attr="0" value="kidiger" attrEnl="0" config="" app="" parm="" />
+		<AuthType type="unsignedchar" level="1" attr="0" value="1" attrEnl="0" config="" app="" parm="" />
+		<Realm type="string" level="1" attr="0" value="lantiq" attrEnl="0" config="" app="" parm="" />
+		<IndexPage type="string" level="1" attr="0" value="index.html" attrEnl="0" config="" app="" parm="" />
+		<WebPageRoot type="string" level="1" attr="0" value="Web" attrEnl="0" config="" app="" parm="" />
+	</WebServerInfo>
+    <LANDevice type="MultiInstance" level="1">
+        <MultiInstance name="LANDevice" Instance="1" level="1">
+            <LANHostConfigManagement type="SingleInstance" level="1">
+                <LANHostConfigManagement_V6 type="SingleInstance" level="1">
+                    <StaticPrefix type="string" level="1" attr="0" value="2010::/64" attrEnl="0" config="" app="" parm="" />
+                    <DHCP6ServerEnable type="boolean" level="1" attr="0" value="1" attrEnl="0" config="" app="" parm="" />
+                    <PrefixEnable type="boolean" level="1" attr="0" value="0" attrEnl="0" config="" app="" parm="" />
+                    <DUID type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                    <V6Stat type="boolean" level="1" attr="0" value="1" attrEnl="0" config="" app="" parm="" />
+                    <StartID type="string" level="1" attr="0" value="0:0:0:1" attrEnl="0" config="" app="" parm="" />
+                    <EndID type="string" level="1" attr="0" value="0:0:0:1000" attrEnl="0" config="" app="" parm="" />
+                    <V6LeaseTime type="string" level="1" attr="0" value="2" attrEnl="0" config="" app="" parm="" />
+                    <RADVDEnable type="boolean" level="1" attr="0" value="1" attrEnl="0" config="" app="" parm="" />
+                    <RADVDPrefixEnable type="boolean" level="1" attr="0" value="0" attrEnl="0" config="" app="" parm="" />
+                    <RADVDMIN type="string" level="1" attr="0" value="3" attrEnl="0" config="" app="" parm="" />
+                    <RADVDMAX type="string" level="1" attr="0" value="5" attrEnl="0" config="" app="" parm="" />
+                </LANHostConfigManagement_V6>
+                <DHCPConditionalServingPool type="MultiInstance" level="1">
+                </DHCPConditionalServingPool>
+                <DHCPServerConfigurable type="boolean" level="1" attr="0" value="1" attrEnl="0" config="" app="" parm="" />
+                <DHCPServerEnable type="boolean" level="1" attr="0" value="1" attrEnl="0" config="" app="" parm="" />
+                <DHCPRelay type="boolean" level="1" attr="0" value="0" attrEnl="0" config="" app="" parm="" />
+                <DHCPServerBackupEnable type="boolean" level="1" attr="0" value="0" attrEnl="0" config="" app="" parm="" />
+                <DHCPServerAddress type="string" level="1" attr="0" value="192.168.1.1" attrEnl="0" config="" app="" parm="" />
+                <MinAddress type="string" level="1" attr="0" value="192.168.1.2" attrEnl="0" config="" app="" parm="" />
+                <MaxAddress type="string" level="1" attr="0" value="192.168.1.254" attrEnl="0" config="" app="" parm="" />
+                <ReservedAddresses type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <SubnetMask type="string" level="1" attr="0" value="255.255.255.0" attrEnl="0" config="" app="" parm="" />
+                <DNSServers type="string" level="1" attr="0" value="192.168.1.1" attrEnl="0" config="" app="" parm="" />
+                <DomainName type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <DHCPLeaseTime type="int" level="1" attr="0" value="86400" attrEnl="0" config="" app="" parm="" />
+                <IPRouters type="string" level="1" attr="0" value="192.168.1.1" attrEnl="0" config="" app="" parm="" /> 
+                <UseAllocatedWAN type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <AssociatedConnection type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <PassthroughLease type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <PassthroughMACAddress type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <AllowedMACAddresses type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <IPInterfaceNumberOfEntries type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+			    <DHCPConditionalPoolNumberOfEntries type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+				<StaticLease0 type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <StaticLease1 type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <StaticLease2 type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <StaticLease3 type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <StaticLease4 type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <StaticLease5 type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <StaticLease6 type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <StaticLease7 type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <StaticLease8 type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <StaticLease9 type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <StaticLease10 type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <StaticLease11 type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <StaticLease12 type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <StaticLease13 type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <StaticLease14 type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <StaticLease15 type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <StaticLease16 type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <StaticLease17 type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <StaticLease18 type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <StaticLease19 type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <StaticLease20 type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <StaticLease21 type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <StaticLease22 type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <StaticLease23 type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <StaticLease24 type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+            </LANHostConfigManagement>
+        </MultiInstance>
+    </LANDevice>
+	<WANDevice type="MultiInstance" level="1">
+        <MultiInstance name="WANDevice" Instance="1" level="1">
+			<WANConnectionNumberOfEntries type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+			<WANCommonInterfaceConfig type="SingleInstance" level="1">
+                <EnabledForInternet type="boolean" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <WANAccessType type="string" level="1" attr="0" value="VDSL" attrEnl="0" config="" app="" parm="" />
+                <Layer1UpstreamMaxBitRate type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <Layer1DownstreamMaxBitRate type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <PhysicalLinkStatus type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <WANAccessProvider type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <TotalBytesSent type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <TotalBytesReceived type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <TotalPacketsSent type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <TotalPacketsReceived type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <MaximumActiveConnections type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <NumberOfActiveConnections type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <Connection type="MultiInstance" level="1">
+                </Connection>
+			</WANCommonInterfaceConfig>
+			<WANDSLInterfaceConfig type="SingleInstance" level="1">
+                <Enable type="boolean" level="1" attr="0" value="0" attrEnl="0" config="" app="" parm="" />
+                <bitswap type="boolean" level="1" attr="0" value="0" attrEnl="0" config="" app="" parm="" />
+                <sra type="boolean" level="1" attr="0" value="0" attrEnl="0" config="" app="" parm="" />
+                <autoconnect type="boolean" level="1" attr="0" value="0" attrEnl="0" config="" app="" parm="" />
+                <fwversion type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <show type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <state type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <Status type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <StandardUsed type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+				<StandardsSupported type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+				<ModulationType type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+				<LineEncoding type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <DataPath type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <InterleaveDepth type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <LineNumber type="Int" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <UpstreamCurrRate type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <DownstreamCurrRate type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <UpstreamMaxRate type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <DownstreamMaxRate type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <UpstreamNoiseMargin type="int" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <DownstreamNoiseMargin type="int" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <UpstreamAttenuation type="int" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <DownstreamAttenuation type="int" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <UpstreamPower type="int" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <DownstreamPower type="int" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <ATURVendor type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <ATURCountry type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <ATURANSIRev type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <ATUCVendor type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <ATUCCountry type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <ATUCANSIStd type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <ATUCANSIRev type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <TotalStart type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <ShowtimeStart type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <LastShowtimeStart type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <CurrentDayStart type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <QuarterHourStart type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <Stats type="SingleInstance" level="1">
+                    <Total type="SingleInstance" level="1">
+                        <ReceiveBlocks type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <TransmitBlocks type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <CellDelin type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <LinkRetrain type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <InitErrors type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <InitTimeouts type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <LossOfFraming type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <ErroredSecs type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <SeverelyErroredSecs type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <FECErrors type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <ATUCFECErrors type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <HECErrors type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <ATUCHECErrors type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <CRCErrors type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <ATUCCRCErrors type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                    </Total>
+                    <Showtime type="SingleInstance" level="1">
+                        <ReceiveBlocks type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <TransmitBlocks type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <CellDelin type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <LinkRetrain type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <InitErrors type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <InitTimeouts type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <LossOfFraming type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <ErroredSecs type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <SeverelyErroredSecs type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <FECErrors type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <ATUCFECErrors type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <HECErrors type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <ATUCHECErrors type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <CRCErrors type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <ATUCCRCErrors type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                    </Showtime>
+                    <LastShowtime type="SingleInstance" level="1">
+                        <ReceiveBlocks type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <TransmitBlocks type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <CellDelin type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <LinkRetrain type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <InitErrors type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <InitTimeouts type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <LossOfFraming type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <ErroredSecs type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <SeverelyErroredSecs type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <FECErrors type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <ATUCFECErrors type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <HECErrors type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <ATUCHECErrors type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <CRCErrors type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <ATUCCRCErrors type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                    </LastShowtime>
+                    <CurrentDay type="SingleInstance" level="1">
+                        <ReceiveBlocks type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <TransmitBlocks type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <CellDelin type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <LinkRetrain type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <InitErrors type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <InitTimeouts type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <LossOfFraming type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <ErroredSecs type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <SeverelyErroredSecs type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <FECErrors type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <ATUCFECErrors type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <HECErrors type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <ATUCHECErrors type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <CRCErrors type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <ATUCCRCErrors type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                    </CurrentDay>
+                    <QuarterHour type="SingleInstance" level="1">
+                        <ReceiveBlocks type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <TransmitBlocks type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <CellDelin type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <LinkRetrain type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <InitErrors type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <InitTimeouts type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <LossOfFraming type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <ErroredSecs type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <SeverelyErroredSecs type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <FECErrors type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <ATUCFECErrors type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <HECErrors type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <ATUCHECErrors type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <CRCErrors type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                        <ATUCCRCErrors type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                    </QuarterHour>
+                </Stats>
+			</WANDSLInterfaceConfig>
+			<WANEthernetInterfaceConfig type="SingleInstance" level="1">
+                <Enable type="boolean" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <Status type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <MACAddress type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <MaxBitRate type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <DuplexMode type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+			<ShapingRate type="int" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+			<ShapingBurstSize type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+			<Stats type="SingleInstance" level="1">
+                <BytesSent type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <BytesReceived type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <PacketsSent type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <PacketsReceived type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+            </Stats>
+			</WANEthernetInterfaceConfig>
+			<WANDSLConnectionManagement type="SingleInstance" level="1">
+                <ConnectionServiceNumberOfEntries type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <ConnectionService type="MultiInstance" level="1">
+                </ConnectionService>
+			</WANDSLConnectionManagement>
+			<WANDSLDiagnostics type="SingleInstance" level="1">
+                <LoopDiagnosticsState type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <ACTPSDds type="int" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <ACTPSDus type="int" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <ACTATPds type="int" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <ACTATPus type="int" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <HLINSCds type="int" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <HLINSCus type="int" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <HLINpsds type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <HLINpsus type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <HLOGpsds type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <HLOGpsus type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <HLOGMTds type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <HLOGMTus type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <LATNpbds type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <LATNpbus type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <QLNpsds type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <QLNpsus type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <QLNMTds type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <QLNMTus type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <SNRpsds type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <SNRpsus type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <SNRMTds type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+                <SNRMTus type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+			</WANDSLDiagnostics>  
+			<WANConnectionDevice type="MultiInstance" level="1">
+				<MultiInstance name="WANConnectionDevice" Instance="1" level="1">
+					<WANIPConnectionNumberOfEntries type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+					<WANPPPConnectionNumberOfEntries type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+					<WANConnectionDeviceName type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+					<WANConnectionServiceName type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+					<VLANID type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+					<ISPPP type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+					<Enable type="boolean" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+					<WANDSLLinkConfig type="SingleInstance" level="1">
+						<Enable type="boolean" level="1" attr="0" value="1" attrEnl="0" config="" app="" parm="" />
+						<LinkStatus type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+						<LinkType type="string" level="1" attr="0" value="EoA" attrEnl="0" config="" app="" parm="" />
+						<AutoConfig type="boolean" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+						<ModulationType type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+						<DestinationAddress type="string" level="1" attr="0" value="PVC: 88/88" attrEnl="0" config="" app="" parm="" />
+						<ATMEncapsulation type="string" level="1" attr="0" value="LLC" attrEnl="0" config="" app="" parm="" />
+						<FCSPreserved type="boolean" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+						<VCSearchList type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+						<ATMAAL type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+						<ATMTransmittedBlocks type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+						<ATMReceivedBlocks type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+						<ATMQoS type="string" level="1" attr="0" value="UBR" attrEnl="0" config="" app="" parm="" />
+						<ATMPeakCellRate type="unsignedInt" level="1" attr="0" value="0" attrEnl="0" config="" app="" parm="" />
+						<ATMMaximumBurstSize type="unsignedInt" level="1" attr="0" value="0" attrEnl="0" config="" app="" parm="" />
+						<ATMSustainableCellRate type="unsignedInt" level="1" attr="0" value="0" attrEnl="0" config="" app="" parm="" />
+						<AAL5CRCErrors type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+						<ATMCRCErrors type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+						<ATMHECErrors type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+						<X_CT-COM_VLAN type="unsignedInt" level="1" attr="0" value="0" attrEnl="0" config="" app="" parm="" />
+					</WANDSLLinkConfig>
+					<WANATMF5LoopbackDiagnostics type="SingleInstance" level="1">
+						<DiagnosticsState type="string" level="1" attr="0" value="None" attrEnl="0" config="" app="" parm="" />
+						<NumberOfRepetitions type="unsignedInt" level="1" attr="0" value="3" attrEnl="0" config="" app="" parm="" />
+						<Timeout type="unsignedInt" level="1" attr="0" value="10000" attrEnl="0" config="" app="" parm="" />
+						<SuccessCount type="unsignedInt" level="1" attr="0" value="0" attrEnl="0" config="" app="" parm="" />
+						<FailureCount type="unsignedInt" level="1" attr="0" value="0" attrEnl="0" config="" app="" parm="" />
+						<AverageResponseTime type="unsignedInt" level="1" attr="0" value="0" attrEnl="0" config="" app="" parm="" />
+						<MinimumResponseTime type="unsignedInt" level="1" attr="0" value="0" attrEnl="0" config="" app="" parm="" />
+						<MaximumResponseTime type="unsignedInt" level="1" attr="0" value="0" attrEnl="0" config="" app="" parm="" />
+					</WANATMF5LoopbackDiagnostics>
+					<WANEthernetLinkConfig type="SingleInstance" level="1">
+						<EthernetLinkStatus type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+						<X_CT_COM_Mode type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+						<X_CT_COM_VLANIDMark type="unsignedInt" level="1" attr="0" value="65535" attrEnl="0" config="" app="" parm="" />
+						<X_CT_COM_802_1pMark type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+					</WANEthernetLinkConfig>
+					<WANPOTSLinkConfig type="SingleInstance" level="1">
+						<Enable type="boolean" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+						<LinkStatus type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+						<ISPPhoneNumber type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+						<ISPInfo type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+						<LinkType type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+						<NumberOfRetries type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+						<DelayBetweenRetries type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+						<Fclass type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+						<DataModulationSupported type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+						<DataProtocol type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+						<DataCompression type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+						<PlusVTRCommandSupported type="boolean" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+					</WANPOTSLinkConfig>
+					<WANDSLInterfaceConfig type="SingleInstance" level="1">
+						<Enable type="boolean" level="1" attr="1" value="0" attrEnl="0" config="" app="" parm="" />
+						<bitswap type="boolean" level="1" attr="1" value="0" attrEnl="0" config="" app="" parm="" />
+						<sra type="boolean" level="1" attr="1" value="0" attrEnl="0" config="" app="" parm="" />
+						<autoconnect type="boolean" level="1" attr="1" value="0" attrEnl="0" config="" app="" parm="" />
+						<fwversion type="string" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+						<show type="string" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+						<state type="string" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+						<Status type="string" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+						<StandardUsed type="string" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+						<ModulationType type="string" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+						<LineEncoding type="string" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+						<DataPath type="string" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+						<InterleaveDepth type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+						<LineNumber type="Int" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+						<UpstreamCurrRate type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+						<DownstreamCurrRate type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+						<UpstreamMaxRate type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+						<DownstreamMaxRate type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+						<UpstreamNoiseMargin type="int" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+						<DownstreamNoiseMargin type="int" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+						<UpstreamAttenuation type="int" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+						<DownstreamAttenuation type="int" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+						<UpstreamPower type="int" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+						<DownstreamPower type="int" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+						<ATURVendor type="string" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+						<ATURCountry type="string" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+						<ATURANSIRev type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+						<ATUCVendor type="string" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+						<ATUCCountry type="string" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+						<ATUCANSIStd type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+						<ATUCANSIRev type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+						<TotalStart type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+						<ShowtimeStart type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+						<LastShowtimeStart type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+						<CurrentDayStart type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+						<QuarterHourStart type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+						<Stats type="SingleInstance" level="1">
+							<Total type="SingleInstance" level="1">
+                                <ReceiveBlocks type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <TransmitBlocks type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <CellDelin type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <LinkRetrain type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <InitErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <InitTimeouts type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <LossOfFraming type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <ErroredSecs type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <SeverelyErroredSecs type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <FECErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <ATUCFECErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <HECErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <ATUCHECErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <CRCErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <ATUCCRCErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+							</Total>
+							<Showtime type="SingleInstance" level="1">
+                                <ReceiveBlocks type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <TransmitBlocks type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <CellDelin type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <LinkRetrain type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <InitErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <InitTimeouts type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <LossOfFraming type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <ErroredSecs type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <SeverelyErroredSecs type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <FECErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <ATUCFECErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <HECErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <ATUCHECErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <CRCErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <ATUCCRCErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+							</Showtime>
+							<LastShowtime type="SingleInstance" level="1">
+                                <ReceiveBlocks type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <TransmitBlocks type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <CellDelin type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <LinkRetrain type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <InitErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <InitTimeouts type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <LossOfFraming type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <ErroredSecs type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <SeverelyErroredSecs type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <FECErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <ATUCFECErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <HECErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <ATUCHECErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <CRCErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <ATUCCRCErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+							</LastShowtime>
+							<CurrentDay type="SingleInstance" level="1">
+                                <ReceiveBlocks type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <TransmitBlocks type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <CellDelin type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <LinkRetrain type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <InitErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <InitTimeouts type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <LossOfFraming type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <ErroredSecs type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <SeverelyErroredSecs type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <FECErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <ATUCFECErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <HECErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <ATUCHECErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <CRCErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <ATUCCRCErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+							</CurrentDay>
+							<QuarterHour type="SingleInstance" level="1">
+                                <ReceiveBlocks type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <TransmitBlocks type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <CellDelin type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <LinkRetrain type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <InitErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <InitTimeouts type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <LossOfFraming type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <ErroredSecs type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <SeverelyErroredSecs type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <FECErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <ATUCFECErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <HECErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <ATUCHECErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <CRCErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+                                <ATUCCRCErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0" config="" app="" parm="" />
+							</QuarterHour>
+						</Stats>
+					</WANDSLInterfaceConfig>   
+					<WANPTMLinkConfig type="SingleInstance" level="1">
+						<Enable type="boolean" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+					</WANPTMLinkConfig>
+					<WANIPConnection type="MultiInstance" level="1">
+						<MultiInstance name="WANIPConnection" Instance="1" level="1">
+							<WANConnectionDeviceName type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+							<WANConnectionServiceName type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+							<X_CT-COM_LanInterface type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+							<X_CT-COM_ServiceList type="string" level="1" attr="0" value="TR069" attrEnl="0" config="" app="" parm="" />
+							<X_CT-COM_LanInterface-DHCPEnable type="boolean" level="1" attr="0" value="1" attrEnl="0" config="" app="" parm="" />
+							<X_CT-COM_MulticastVlan type="signedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+							<IPv4Enable type="boolean" level="1" attr="0" value="1" attrEnl="0" config="" app="" parm="" />
+							<IPv6Enable type="boolean" level="1" attr="0" value="0" attrEnl="0" config="" app="" parm="" />
+							<DhcpPDEnable type="boolean" level="1" attr="0" value="0" attrEnl="0" config="" app="" parm="" />
+							<SlaacEnable type="boolean" level="1" attr="0" value="0" attrEnl="0" config="" app="" parm="" />
+							<fcNatEnable type="boolean" level="1" attr="0" value="0" attrEnl="0" config="" app="" parm="" />
+							<Enable type="boolean" level="1" attr="0" value="1" attrEnl="0" config="" app="" parm="" />
+							<ConnectionStatus type="string" level="1" attr="0" value="Unconfigured" attrEnl="0" config="" app="" parm="" />
+							<PossibleConnectionTypes type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+							<ConnectionType type="string" level="1" attr="0" value="IP_Routed" attrEnl="0" config="" app="" parm="" />
+							<Name type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+							<Uptime type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+							<LastConnectionError type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+							<AutoDisconnectTime type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+							<IdleDisconnectTime type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+							<WarnDisconnectDelay type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+							<RSIPAvailable type="boolean" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+							<NATEnabled type="boolean" level="1" attr="0" value="0" attrEnl="0" config="" app="" parm="" />
+							<AddressingType type="string" level="1" attr="0" value="DHCP" attrEnl="0" config="" app="" parm="" />
+							<ExternalIPAddress type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+							<SubnetMask type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+							<DefaultGateway type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+							<DNSEnabled type="boolean" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+							<DNSOverrideAllowed type="boolean" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+							<DNSServers type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+							<MaxMTUSize type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+							<MACAddress type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+							<MACAddressOverride type="boolean" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+							<ConnectionTrigger type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+							<RouteProtocolRx type="string" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+							<ShapingRate type="int" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+							<ShapingBurstSize type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+							<PortMappingNumberOfEntries type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+							<PortMapping type="MultiInstance" level="1">
+							</PortMapping>
+							<Stats type="SingleInstance" level="1">
+								<EthernetBytesSent type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+								<EthernetBytesReceived type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+								<EthernetPacketsSent type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+								<EthernetPacketsReceived type="unsignedInt" level="1" attr="0" value="" attrEnl="0" config="" app="" parm="" />
+							</Stats>
+						</MultiInstance>
+					</WANIPConnection>
+					<WANPPPConnection type="MultiInstance" level="1">
+					</WANPPPConnection>
+				</MultiInstance>
+			</WANConnectionDevice>
+		</MultiInstance>
+	</WANDevice>
+</InternetGatewayDevice>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+  <VLANConfig xmlns:DareConfig="http://www.dare-tech.com">
+  		<MultiInstance Instance="0"  level="1">
+			<VlanId type="unsignedInt" level="1" attr="1" value="1" attrEnl="0"/>
+			<VlanName type="string" level="1" attr="1" value="" attrEnl="0"/>
+			<PortList type="string" level="1" attr="1" value="0" attrEnl="0"/>
+    		<IPInterface type="SingleInstance" level="1">
+    			<Enable type="boolean" level="1" attr="1" value="0" attrEnl="0"/>
+    			<IPInterfaceIPAddress type="string" level="0" attr="1" value="" attrEnl="0"/>
+    			<IPInterfaceSubnetMask type="string" level="0" attr="1" value="" attrEnl="0"/>
+    			<IPInterfaceAddressingType type="string" level="0" attr="1" value="Static" attrEnl="0"/>
+    		</IPInterface>
+    		<DHCPConfig type="SingleInstance" level="1">
+    			<DHCPServerEnable type="boolean" level="1" attr="1" value="0" attrEnl="0"/>
+    			<MinAddress type="string" level="0" attr="1" value="" attrEnl="0"/>
+    			<MaxAddress type="string" level="0" attr="1" value="" attrEnl="0"/>
+    			<ReservedAddresses type="string" level="0" attr="1" value="" attrEnl="0"/>
+    			<SubnetMask type="string" level="0" attr="1" value="" attrEnl="0"/>
+    			<DNSServers type="string" level="0" attr="1" value="" attrEnl="0"/>
+    			<DomainName type="string" level="0" attr="1" value="" attrEnl="0"/>
+    			<DefaultGateway type="string" level="0" attr="1" value="" attrEnl="0"/>
+    			<DHCPLeaseTime type="int" level="0" attr="1" value="0" attrEnl="0"/>
+    			<DHCPRelayEnable type="boolean" level="0" attr="1" value="0" attrEnl="0"/>
+    			<DHCPRelayServer type="string" level="0" attr="1" value="" attrEnl="0"/>
+    		</DHCPConfig>
+    		<PortalManagement type="SingleInstance" level="1">
+    			<Enable type="boolean" level="1" attr="1" value="0" attrEnl="0"/>
+    			<PortalUrl type="string" level="0" attr="1" value="www.chinatelecom.com.cn" attrEnl="0"/>
+    		</PortalManagement>
+    	</MultiInstance>
+  </VLANConfig>

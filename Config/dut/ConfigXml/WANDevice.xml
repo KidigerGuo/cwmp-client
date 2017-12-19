@@ -1,0 +1,186 @@
+<?xml version="1.0"?>
+  <WANDevice xmlns:DareConfig="http://www.dare-tech.com">
+  	<MultiInstance name="WANDevice" Instance="0"  level="1">
+    	<WANConnectionNumberOfEntries type="unsignedInt" level="1" attr="0" value="" attrEnl="0"/>
+    	<WANCommonInterfaceConfig type="SingleInstance" level="1">
+    		<EnabledForInternet type="boolean" level="1" attr="1" value="" attrEnl="0"/>
+    		<WANAccessType type="string" level="1" attr="1" value="" attrEnl="0"/>
+    		<Layer1UpstreamMaxBitRate type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    		<Layer1DownstreamMaxBitRate type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    		<PhysicalLinkStatus type="string" level="1" attr="1" value="" attrEnl="0"/>
+    		<WANAccessProvider type="string" level="1" attr="1" value="" attrEnl="0"/>
+    		<TotalBytesSent type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    		<TotalBytesReceived type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    		<TotalPacketsSent type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    		<TotalPacketsReceived type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    		<MaximumActiveConnections type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    		<NumberOfActiveConnections type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    		<Connection type="MultiInstance" level="1">
+    		</Connection>
+    	</WANCommonInterfaceConfig>
+    	<WANDSLInterfaceConfig type="SingleInstance" level="1">
+    		<Enable type="boolean" level="1" attr="1" value="" attrEnl="0"/>
+    		<Status type="string" level="1" attr="1" value="" attrEnl="0"/>
+    		<ModulationType type="string" level="1" attr="1" value="" attrEnl="0"/>
+    		<LineEncoding type="string" level="1" attr="1" value="" attrEnl="0"/>
+    		<DataPath type="string" level="1" attr="1" value="" attrEnl="0"/>
+    		<InterleaveDepth type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    		<LineNumber type="Int" level="1" attr="1" value="" attrEnl="0"/>
+    		<UpstreamCurrRate type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    		<DownstreamCurrRate type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    		<UpstreamMaxRate type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    		<DownstreamMaxRate type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    		<UpstreamNoiseMargin type="int" level="1" attr="1" value="" attrEnl="0"/>
+    		<DownstreamNoiseMargin type="int" level="1" attr="1" value="" attrEnl="0"/>
+    		<UpstreamAttenuation type="int" level="1" attr="1" value="" attrEnl="0"/>
+    		<DownstreamAttenuation type="int" level="1" attr="1" value="" attrEnl="0"/>
+    		<UpstreamPower type="int" level="1" attr="1" value="" attrEnl="0"/>
+    		<DownstreamPower type="int" level="1" attr="1" value="" attrEnl="0"/>
+    		<ATURVendor type="string" level="1" attr="1" value="" attrEnl="0"/>
+    		<ATURCountry type="string" level="1" attr="1" value="" attrEnl="0"/>
+    		<ATURANSIRev type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    		<ATUCVendor type="string" level="1" attr="1" value="" attrEnl="0"/>
+    		<ATUCCountry type="string" level="1" attr="1" value="" attrEnl="0"/>
+    		<ATUCANSIStd type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    		<ATUCANSIRev type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    		<TotalStart type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    		<ShowtimeStart type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    		<LastShowtimeStart type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    		<CurrentDayStart type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    		<QuarterHourStart type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    		<Stats type="SingleInstance" level="1">
+    			<Total type="SingleInstance" level="1">
+    				<ReceiveBlocks type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<TransmitBlocks type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<CellDelin type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<LinkRetrain type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<InitErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<InitTimeouts type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<LossOfFraming type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<ErroredSecs type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<SeverelyErroredSecs type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<FECErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<ATUCFECErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<HECErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<ATUCHECErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<CRCErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<ATUCCRCErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    			</Total>
+    			<Showtime type="SingleInstance" level="1">
+    				<ReceiveBlocks type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<TransmitBlocks type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<CellDelin type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<LinkRetrain type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<InitErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<InitTimeouts type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<LossOfFraming type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<ErroredSecs type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<SeverelyErroredSecs type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<FECErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<ATUCFECErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<HECErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<ATUCHECErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<CRCErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<ATUCCRCErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    			</Showtime >
+    			<LastShowtime type="SingleInstance" level="1">
+    				<ReceiveBlocks type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<TransmitBlocks type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<CellDelin type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<LinkRetrain type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<InitErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<InitTimeouts type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<LossOfFraming type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<ErroredSecs type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<SeverelyErroredSecs type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<FECErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<ATUCFECErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<HECErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<ATUCHECErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<CRCErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<ATUCCRCErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    			</LastShowtime >
+    			<CurrentDay type="SingleInstance" level="1">
+    				<ReceiveBlocks type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<TransmitBlocks type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<CellDelin type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<LinkRetrain type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<InitErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<InitTimeouts type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<LossOfFraming type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<ErroredSecs type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<SeverelyErroredSecs type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<FECErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<ATUCFECErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<HECErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<ATUCHECErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<CRCErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<ATUCCRCErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    			</CurrentDay >
+    			<QuarterHour type="SingleInstance" level="1">
+    				<ReceiveBlocks type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<TransmitBlocks type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<CellDelin type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<LinkRetrain type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<InitErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<InitTimeouts type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<LossOfFraming type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<ErroredSecs type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<SeverelyErroredSecs type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<FECErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<ATUCFECErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<HECErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<ATUCHECErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<CRCErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    				<ATUCCRCErrors type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    			</QuarterHour >
+    		</Stats>
+    	</WANDSLInterfaceConfig>
+    	<WANEthernetInterfaceConfig type="SingleInstance" level="1">
+    		<Enable type="boolean" level="1" attr="1" value="" attrEnl="0"/>
+    		<Status type="string" level="1" attr="1" value="" attrEnl="0"/>
+    		<MACAddress type="string" level="1" attr="1" value="" attrEnl="0"/>
+    		<MaxBitRate type="string" level="1" attr="1" value="" attrEnl="0"/>
+    		<DuplexMode type="string" level="1" attr="1" value="" attrEnl="0"/>
+    		<Stats type="SingleInstance" level="1">
+    			<BytesSent type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    			<BytesReceived type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    			<PacketsSent type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    			<PacketsReceived type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    		</Stats>
+    	</WANEthernetInterfaceConfig>
+    	<WANDSLConnectionManagement type="SingleInstance" level="1">
+    		<ConnectionServiceNumberOfEntries type="unsignedInt" level="1" attr="1" value="" attrEnl="0"/>
+    		<ConnectionService type="MultiInstance" level="1">
+    		</ConnectionService>
+    	</WANDSLConnectionManagement>
+    	<WANDSLDiagnostics type="SingleInstance" level="1">
+    		<LoopDiagnosticsState type="string" level="1" attr="1" value="" attrEnl="0"/>
+    		<ACTPSDds type="int" level="1" attr="1" value="" attrEnl="0"/>
+    		<ACTPSDus type="int" level="1" attr="1" value="" attrEnl="0"/>
+    		<ACTATPds type="int" level="1" attr="1" value="" attrEnl="0"/>
+    		<ACTATPus type="int" level="1" attr="1" value="" attrEnl="0"/>
+    		<HLINSCds type="int" level="1" attr="1" value="" attrEnl="0"/>
+    		<HLINpsds type="string" level="1" attr="1" value="" attrEnl="0"/>
+    		<QLNpsds type="string" level="1" attr="1" value="" attrEnl="0"/>
+    		<SNRpsds type="string" level="1" attr="1" value="" attrEnl="0"/>
+    		<BITSpsds type="string" level="1" attr="1" value="" attrEnl="0"/>
+    		<GAINSpsds type="string" level="1" attr="1" value="" attrEnl="0"/>
+    	</WANDSLDiagnostics>
+    	<X_CT-COM_EponInterfaceConfig type="SingleInstance" level="1">
+    		<Status type="string" level="1" attr="1" value="Up" attrEnl="0"/>
+    		<UpstreamCurrRate type="unsignedInt" level="1" attr="1" value="0" attrEnl="0"/>
+    		<DownstreamCurrRate type="unsignedInt" level="1" attr="1" value="0" attrEnl="0"/>
+    		<UpstreamPower type="int" level="1" attr="1" value="0" attrEnl="0"/>
+    		<DownstreamPower type="string" level="1" attr="1" value="0" attrEnl="0"/>
+    		<Status type="SingleInstance" level="1">
+    			<BytesSent type="unsignedInt" level="1" attr="1" value="0" attrEnl="0"/>
+    			<BytesReceived type="unsignedInt" level="1" attr="1" value="0" attrEnl="0"/>
+    			<PacketsSent type="unsignedInt" level="1" attr="1" value="0" attrEnl="0"/>
+    			<PacketsReceived type="unsignedInt" level="1" attr="1" value="0" attrEnl="0"/>
+    		</Status>
+    	</X_CT-COM_EponInterfaceConfig>
+    	<WANConnectionDevice type="MultiInstance" level="1">
+    	</WANConnectionDevice>
+    </MultiInstance>
+  </WANDevice>

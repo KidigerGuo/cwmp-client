@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+  <Connection xmlns:DareConfig="http://www.dare-tech.com">
+  	<MultiInstance name="Connection" Instance="0"  level="1">
+    	<ActiveConnectionDeviceContainer type="string" level="0" attr="1" value="" attrEnl="0"/>
+    	<ActiveConnectionServiceID type="string" level="0" attr="1" value="" attrEnl="0"/>
+    </MultiInstance>
+  </Connection>

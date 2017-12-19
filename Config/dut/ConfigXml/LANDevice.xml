@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+  <LANDevice xmlns:DareConfig="http://www.dare-tech.com">
+  	<MultiInstance name="LANDevice" Instance="0"  level="1">
+    	<LANEthernetInterfaceNumberOfEntries type="unsignedInt" level="0" attr="2" value="2" attrEnl="0"/>
+    	<LANUSBInterfaceNumberOfEntries type="unsignedInt" level="0" attr="2" value="2" attrEnl="0"/>
+    	<LANWLANConfigurationNumberOfEntries type="unsignedInt" level="0" attr="2" value="2" attrEnl="0"/>
+    	<LANHostConfigManagement type="SingleInstance" level="1">
+    		<DHCPServerConfigurable type="boolean" level="1" attr="1" value="1" attrEnl="1"/>
+    		<DHCPServerEnable type="boolean" level="1" attr="1" value="1" attrEnl="1"/>
+    		<DHCPRelay type="boolean" level="0" attr="1" value="0" attrEnl="1"/>
+		<DHCPServerBackupEnable type="boolean" level="0" attr="1" value="0" attrEnl="1"/>
+    		<X_CT-COM_STB-MinAddress type="string" level="1" attr="1" value="" attrEnl="1"/>
+    		<X_CT-COM_STB-MaxAddress type="string" level="1" attr="1" value="" attrEnl="1"/>
+    		<X_CT-COM_Phone-MinAddress type="string" level="1" attr="1" value="" attrEnl="1"/>
+    		<X_CT-COM_Phone-MaxAddress type="string" level="1" attr="1" value="" attrEnl="1"/>
+    		<X_CT-COM_Camera-MinAddress type="string" level="1" attr="1" value="" attrEnl="1"/>
+    		<X_CT-COM_Camera-MaxAddress type="string" level="1" attr="1" value="" attrEnl="1"/>
+    		<X_CT-COM_Computer-MinAddress type="string" level="1" attr="1" value="" attrEnl="1"/>
+    		<X_CT-COM_Computer-MaxAddress type="string" level="1" attr="1" value="" attrEnl="1"/>
+    		<MinAddress type="string" level="1" attr="1" value="192.168.0.10" attrEnl="1"/>
+    		<MaxAddress type="string" level="1" attr="1" value="192.168.0.20" attrEnl="1"/>
+    		<ReservedAddresses type="string" level="1" attr="1" value="" attrEnl="1"/>
+    		<SubnetMask type="string" level="1" attr="1" value="255.255.255.0" attrEnl="1"/>
+    		<DNSServers type="string" level="1" attr="1" value="192.168.0.1" attrEnl="1"/>
+    		<DomainName type="string" level="1" attr="1" value="Local" attrEnl="1"/>
+    		<DHCPLeaseTime type="int" level="1" attr="1" value="864000" attrEnl="1"/>
+    		<IPRouters type="string" level="1" attr="1" value="192.168.0.1" attrEnl="1"/> 
+    		<UseAllocatedWAN type="string" level="1" attr="1" value="" attrEnl="1"/>
+    		<AssociatedConnection type="string" level="1" attr="1" value="" attrEnl="1"/>
+    		<PassthroughLease type="unsignedInt" level="1" attr="1" value="" attrEnl="1"/>
+    		<PassthroughMACAddress type="string" level="1" attr="1" value="" attrEnl="1"/>
+    		<AllowedMACAddresses type="string" level="1" attr="1" value="" attrEnl="1"/>
+    		<IPInterfaceNumberOfEntries type="unsignedInt" level="0" attr="1" value="" attrEnl="1"/>
+    		<StaticLease0 type="string" level="1" attr="1" value="00:1b:11:03:35:a9$172.16.8.15" attrEnl="1"/>
+    		<StaticLease1 type="string" level="1" attr="1" value="" attrEnl="1"/>
+    		<StaticLease2 type="string" level="1" attr="1" value="" attrEnl="1"/>
+    		<StaticLease3 type="string" level="1" attr="1" value="" attrEnl="1"/>
+    		<StaticLease4 type="string" level="1" attr="1" value="" attrEnl="1"/>
+    		<StaticLease5 type="string" level="1" attr="1" value="" attrEnl="1"/>
+    		<StaticLease6 type="string" level="1" attr="1" value="" attrEnl="1"/>
+    		<StaticLease7 type="string" level="1" attr="1" value="" attrEnl="1"/>
+    		<StaticLease8 type="string" level="1" attr="1" value="" attrEnl="1"/>
+    		<StaticLease9 type="string" level="1" attr="1" value="" attrEnl="1"/>
+    		<StaticLease10 type="string" level="1" attr="1" value="" attrEnl="1"/>
+    		<StaticLease11 type="string" level="1" attr="1" value="" attrEnl="1"/>
+    		<StaticLease12 type="string" level="1" attr="1" value="" attrEnl="1"/>
+    		<StaticLease13 type="string" level="1" attr="1" value="" attrEnl="1"/>
+    		<StaticLease14 type="string" level="1" attr="1" value="" attrEnl="1"/>
+    		<StaticLease15 type="string" level="1" attr="1" value="" attrEnl="1"/>
+    		<StaticLease16 type="string" level="1" attr="1" value="" attrEnl="1"/>
+    		<StaticLease17 type="string" level="1" attr="1" value="" attrEnl="1"/>
+    		<StaticLease18 type="string" level="1" attr="1" value="" attrEnl="1"/>
+    		<StaticLease19 type="string" level="1" attr="1" value="" attrEnl="1"/>
+    		<StaticLease20 type="string" level="1" attr="1" value="" attrEnl="1"/>
+    		<StaticLease21 type="string" level="1" attr="1" value="" attrEnl="1"/>
+    		<StaticLease22 type="string" level="1" attr="1" value="" attrEnl="1"/>
+    		<StaticLease23 type="string" level="1" attr="1" value="" attrEnl="1"/>
+    		<StaticLease24 type="string" level="1" attr="1" value="" attrEnl="1"/>
+    		<IPInterface type="MultiInstance" level="1">
+    		</IPInterface>
+  		</LANHostConfigManagement>
+  		<LANEthernetInterfaceConfig type="MultiInstance" level="1">
+  		</LANEthernetInterfaceConfig>
+  		<LANUSBInterfaceConfig type="MultiInstance" level="1">
+  		</LANUSBInterfaceConfig>
+  		<WLANConfiguration type="MultiInstance" level="1">
+  		</WLANConfiguration>
+  		<Hosts type="SingleInstance" level="1">
+  			<HostNumberOfEntries type="unsignedInt" level="0" attr="2" value="2" attrEnl="0"/>
+  			<Host type="MultiInstance" level="1">
+  			</Host>
+  		</Hosts>
+    </MultiInstance>
+  </LANDevice>

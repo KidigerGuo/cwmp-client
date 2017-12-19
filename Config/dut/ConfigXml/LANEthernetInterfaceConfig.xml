@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+  <LANEthernetInterfaceConfig xmlns:DareConfig="http://www.dare-tech.com">
+  	<MultiInstance name="LANEthernetInterfaceConfig" Instance="0"  level="1">
+    	<Enable type="boolean" level="1" attr="1" value="" attrEnl="0"/>
+    	<Status type="string" level="0" attr="1" value="" attrEnl="0"/>
+    	<MACAddress type="string" level="0" attr="1" value="" attrEnl="0"/>
+    	<MACAddressControlEnabled type="boolean" level="1" attr="1" value="" attrEnl="0"/>
+    	<MaxBitRate type="string" level="1" attr="1" value="" attrEnl="0"/>
+    	<DuplexMode type="string" level="1" attr="1" value="" attrEnl="0"/>
+    	<Stats type="SingleInstance" level="1">
+    		<BytesSent type="unsignedInt" level="0" attr="1" value="" attrEnl="0"/>
+    		<BytesReceived type="unsignedInt" level="0" attr="1" value="" attrEnl="0"/>
+    		<PacketsSent type="unsignedInt" level="0" attr="1" value="" attrEnl="0"/>
+    		<PacketsReceived type="unsignedInt" level="0" attr="1" value="" attrEnl="0"/>
+    	</Stats>
+    </MultiInstance>
+  </LANEthernetInterfaceConfig>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+  <ConnectionService xmlns:DareConfig="http://www.dare-tech.com">
+  	<MultiInstance name="ConnectionService" Instance="0"  level="1">
+    	<WANConnectionDevice type="string" level="0" attr="1" value="" attrEnl="0"/>
+    	<WANConnectionService type="string" level="0" attr="1" value="" attrEnl="0"/>
+    	<DestinationAddress type="string" level="0" attr="1" value="" attrEnl="0"/>
+    	<LinkType type="string" level="0" attr="1" value="" attrEnl="0"/>
+    	<ConnectionType type="string" level="0" attr="1" value="" attrEnl="0"/>
+    	<Name type="string" level="0" attr="1" value="" attrEnl="0"/>
+    </MultiInstance>
+  </ConnectionService>

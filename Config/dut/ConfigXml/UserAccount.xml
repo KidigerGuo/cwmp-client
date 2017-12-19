@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+  	<UserAccount xmlns:DareConfig="http://www.dare-tech.com">
+  		<MultiInstance Instance="0"  level="1">
+    		<Enable type="boolean" level="1" attr="1" value="0" attrEnl="0"/>
+    		<UserName type="string" level="1" attr="1" value="" attrEnl="0"/>
+    		<Password type="string" level="1" attr="1" value="" attrEnl="0"/>
+    		<Level type="Int" level="1" attr="1" value="0" attrEnl="0"/>
+    	</MultiInstance>
+  	</UserAccount>
